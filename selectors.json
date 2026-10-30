@@ -1,6 +1,15 @@
 {
     "version": "1.0.0",
-    "input": ["div[contenteditable=\"true\"][data-testid=\"conversation-compose-box-input\"]", "div[contenteditable=\"true\"][role=\"textbox\"]"],
-    "sendButton": ["button[data-testid=\"compose-btn-send\"]", "span[data-icon=\"send\"]"],
-    "headerName": ["header span[dir=\"auto\"]", "header span[title]"]
+    "input": [
+        "div[contenteditable=\"true\"][data-testid=\"conversation-compose-box-input\"]",
+        "div[contenteditable=\"true\"][role=\"textbox\"]"
+    ],
+    "sendButton": [
+        "button[data-testid=\"compose-btn-send\"]",
+        "span[data-icon=\"send\"]"
+    ],
+    "headerName": [
+        "header span[dir=\"auto\"]",
+        "header span[title]"
+    ]
 }
